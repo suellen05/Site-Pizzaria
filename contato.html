@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <main class="container">
+        <aside class="cabecalho">
+            <img src="Images/logotipo.png" class="logo">
+            <div class="telefone">Disk entregas:<br>
+                (19)1234-5678<br>
+
+            </div>
+        </aside>
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quem-somos.html">Quem Somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <header class="conteudo-principal">
+            <h1 class="titulo">Entre em contato!</h1>
+
+                <div class="linha-1"></div>
+
+            <h2 class="mensagem-de-contato">Envie uma mensagem</h2>
+            <h3 class="formulario">Utilize o furmulário de contato para enviar sua mensagem:</h3>
+
+            <form action="cadastrar.php" method="post">
+                <p>
+                    <label for="nome" class="nome">Nome</label><br>
+                    <input id="nome" type="text" name="nome"> 
+                </p>
+
+                <p>
+                    <label for="email" class="email">Email</label><br>
+                    <input id="email" type="email" name="email"> 
+                </p>
+
+                <p>
+                    <label for="mensagem" class="mensagem">Mensagem </label><br>
+                    <textarea id="mensagem"></textarea>  
+                </p>
+
+                <button type="submit" class="botao">Enviar</button>  
+            </form>  
+            
+            <div class="empresa">                 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3301458830665!2d-47.33128058454593!3d-22.75312603812745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1607794444349!5m2!1spt-BR!2sbr" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                    <h2>Endereço</h2>
+                    <h4>Rua Teste, 123, Bairro<br>
+                        Sede, Americana - SP</h4>
+                
+                    <h2>Email</h2>
+                    <h4>contato@superpizza.com.br</h4>
+                
+                    <h2>Telefone</h2>
+                    <h4>(19) 1234-5678</h4>
+                </div>
+
+            <div class="rodape">
+                <p>Aula do SENAC. Declaração de direitos autorais</p>
+            </div>
+        </header>
+</body>
+</html>

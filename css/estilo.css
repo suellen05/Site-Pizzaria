@@ -1,0 +1,244 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(../Images/fundo.jpg);
+    margin: 0;
+  
+}
+
+.container{
+    margin: 0 auto;
+    width: 990px;
+}
+
+.cabecalho{
+    border: 1px solid rgb(165, 49, 3);
+    background: rgb(178,34,34);
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.logo{
+    margin-left: 0px;
+    margin-top: -5px;
+    margin-bottom: 45px;
+}
+
+.telefone{
+    font-size: 25px;
+    margin-left: 750px;
+    margin-top: -110px;
+    margin-bottom: -25px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul{
+    list-style-type: none;
+    background: rgb(218,165,32);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    overflow: hidden;
+    margin: 0px;
+    font-size: 15px
+}
+
+.menu li{
+    display: inline-block;
+    
+}
+
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+.conteudo-principal{
+    background: white;
+    margin: 0px;
+    overflow: hidden;
+    color: rgb(54,54,54);
+}
+
+.titulo{
+    padding-top: 12px;
+    padding-left: 28px;
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+
+.linha-1{
+    height: 2px;
+    width: 95%;
+    background: black;
+    margin: 0 auto;
+}
+
+.lista-imagens {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    padding-top: -200px;
+    justify-content: space-around;
+}
+
+.sabores{
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 30px;
+}
+
+.sabores-2 ul{
+    list-style: none;
+    column-count: 3;
+    column-gap: initial;
+    line-height: 19px;
+    padding-right: 560px;
+    margin-top: -15px;
+    font-size: 16px;
+    padding-left: 35px;
+}
+
+.casa{
+    margin-left: 518px;
+    margin-top: -225px;
+    padding-bottom: 50px;
+}
+
+.casa-2{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.historia{
+    float: left;
+    padding-left: -2px;
+    padding-right: 20px;
+}
+
+.conheca{
+    color:red;
+}
+
+.rodape{
+    background: rgb(54,54,54);
+    overflow: hidden;
+    padding-left: 35px;
+    color: white;
+}
+
+.historia-2{
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.titulo-2{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.missao-visao{
+    margin-left: 40px;
+    padding-bottom: 120px;
+    font-size: 14px;
+}
+
+.galeria{
+    font-size: 18px;
+    padding-left: 50%;
+    margin-top: -640px;
+}
+
+.galeria-pizza{
+    display: block;
+}
+
+.galeria img{
+    width: 150px;
+}
+
+.valores{
+    padding-top: 55px;
+    padding-left: 500px;
+    font-size: 16px;
+}
+
+.valores ul{
+    list-style: none;
+    padding-left: 0px;
+    padding-bottom: 60px;
+    font-size: 15px;
+}
+
+.mensagem-de-contato{
+    padding-left: 28px;
+    padding-top: 25px;
+    margin-bottom: -16px;
+}
+
+.formulario{
+    padding-left: 28px;
+    font-size: 16px;
+}
+
+.nome{
+    padding-left: 28px;
+}
+
+#nome{
+    height: 20px;
+    width: 300px;
+    margin-left: 28px;
+    margin-top: 5px;
+}
+
+.email{
+    padding-left: 28px;
+}
+
+#email{
+    height: 20px;
+    width: 300px;
+    margin-left: 28px;
+    margin-top: 5px;
+}
+
+.mensagem{
+    padding-left: 28px;
+}
+
+#mensagem{
+    height: 90px;
+    width: 550px;
+    margin-left: 28px;
+    margin-top: 5px;
+}
+
+.empresa{
+    padding-left: 660px;
+    margin-top: -360px;
+}
+
+.empresa h2{
+    margin-bottom: -16px
+}
+
+.empresa h4{
+    text-decoration: none;
+}
+
+.botao{
+    margin-left: 28px;
+    background: gray;
+    border: gray;
+    padding: 5px 18px;
+    color: white;
+}
